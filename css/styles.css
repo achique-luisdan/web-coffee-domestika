@@ -1,0 +1,145 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  
+}
+
+li a {
+  color:white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #d03b40;
+}
+
+.box-bg-section nav ul {
+  text-align: right;
+  font-weight: 800;
+}
+
+.box-bg-section {
+  background: url('../imgs/bg1.jpg');
+  background-size: cover;
+  min-height: 330px;
+  padding: 3%;
+}
+
+.box-bg-section h1 {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size:  44px;
+}
+
+.box-bg-section hr, .box-bg2-section hr { 
+  max-width: 20%;
+  border-top: 3px solid #E1E1E1;
+}
+
+.box-bg-section p, .box-bg2-section p  {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.box-row-section, .box-contact-section {
+  text-align: center;
+}
+
+.box-row-section h3, .box-contact-section h3 {
+  font-weight: 800;
+  font-size:   24px;
+}
+
+.box-row-section div, .box-row2-section div, .box-contact-section div {
+  min-height: 250px;
+}
+
+.box-row-section div div, .box-contact-section div div {
+  padding: 10%;
+}
+
+.box-row2-section div div {
+  padding: 2%;
+}
+
+
+.box-row-section .first-column{
+  background: #d03b40;
+  color:#f5f0ed;
+}
+
+.box-row-section .second-column{
+  background: #f5f0ed;
+  color:#d03b40;
+}
+
+.box-contact-section .first-column{
+  background: #ded6c0;
+  color:#d03b40;
+  
+}
+
+
+.box-contact-section .second-column {
+  background: #d03b40;
+  color:#f5f0ed;
+}
+
+.box-contact-section a {
+  color:#d03b40;
+  text-decoration: none;
+}
+
+.box-contact-section a:hover {
+  text-decoration: underline;
+  color: #e05a5f;
+}
+
+.box-row2-section .generic-column {
+  background: #ded6c0;
+  color:#3c3c3b;
+  text-align: center;
+}
+
+.box-row2-section .generic-column  h3{
+  font-weight: 800;
+  font-size:   24px;
+  text-align: center;
+}
+
+.box-bg2-section { 
+  background: url('../imgs/bg2.jpg');
+  background-size: cover;
+  min-height: 290px;
+  padding: 10%;
+  padding-top: 13%;
+  text-align: center;
+}
+
+.box-bg2-section h2 {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size:  28px
+}
+
+.box-bg2-section button {
+  color: white;
+  border-radius: 0px;
+  border: 4px solid white
+}
+
+footer {
+  background: #241d1b;
+  min-height: 40px;
+  color: white;
+  text-align: center;
+  padding: 4%;
+}
