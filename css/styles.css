@@ -228,3 +228,9 @@ body {
 #menu-sidebar {
   max-width: 50px;
 }
+
+body > section.box-bg2-section > button {
+    max-width: 40%;
+    overflow: auto;
+}
+
