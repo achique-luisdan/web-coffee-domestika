@@ -5,7 +5,7 @@ body {
 
 li {
   list-style: none;
-  display: inline-block;
+  /*display: inline-block;*/
   
 }
 
@@ -143,3 +143,77 @@ footer {
   text-align: center;
   padding: 4%;
 }
+
+/* Mejoras del menú de navegación responsive. */
+body {
+  background: #d03b40;
+}
+
+#enlace-menu {
+  color: white;
+  text-align: right;
+  font-weight: 800;
+  padding: 1%;
+  ;
+}
+
+#menu:hover {
+  color: #0FA0CE;
+}
+
+
+@media (max-width: 730px) {
+  .js  .navegacion {
+    overflow: hidden;
+    transition: max-height .5s;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 24px;
+    width: 100%;
+    background-color: #d03b40;
+    display: none;
+    padding: 1%;
+    box-sizing: border-box;
+    border-top: solid 1px white;
+  }
+
+  #menu.navegacion.menu-desplegado {
+    display: block;
+  }
+
+  #menu > nav > ul > li {
+    display: block;
+    margin-right: 15px;
+    
+  }
+  #menu > ul > li {
+    text-align: left;
+  }
+}
+
+@media (min-width: 730px) {
+  .lanzador-menu {
+    display: none;
+  }
+  .js  .navegacion {
+    overflow: hidden;
+    transition: max-height .5s;
+    left: 30px;
+    right: 30px;
+  }
+
+  .js .navegacion li {
+    display: inline-block;
+  }
+
+  .js .navegacion li a {
+    padding: 5px 10px;
+  }
+
+ 
+
+}
+
+
+
