@@ -154,6 +154,7 @@ body {
   text-align: right;
   font-weight: 800;
   padding: 1%;
+  ;
 }
 
 #menu:hover {
@@ -168,12 +169,13 @@ body {
     position: absolute;
     right: 0px;
     left: 0px;
-    top: 43px;
+    top: 24px;
     width: 100%;
     background-color: #d03b40;
     display: none;
     padding: 1%;
-    box-sizing: none;
+    box-sizing: border-box;
+    border-top: solid 1px white;
   }
 
   #menu.navegacion.menu-desplegado {
