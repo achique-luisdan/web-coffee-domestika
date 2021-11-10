@@ -154,12 +154,9 @@ body {
   text-align: right;
   font-weight: 800;
   padding: 1%;
-  ;
+  text-align: right;
 }
 
-#menu:hover {
-  color: #0FA0CE;
-}
 
 
 @media (max-width: 730px) {
@@ -169,13 +166,17 @@ body {
     position: absolute;
     right: 0px;
     left: 0px;
-    top: 24px;
+    top: 60px;
     width: 100%;
     background-color: #d03b40;
     display: none;
     padding: 1%;
     box-sizing: border-box;
     border-top: solid 1px white;
+  }
+
+  li a:hover {
+    color: black;
   }
 
   #menu.navegacion.menu-desplegado {
@@ -217,3 +218,13 @@ body {
 
 
 
+.btn-hamburger {
+  background-color: #fff;
+  max-width: 40px;
+  height: 2px;
+  margin: 5px 10px;
+
+}
+#menu-sidebar {
+  max-width: 50px;
+}
