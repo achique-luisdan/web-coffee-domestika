@@ -58,7 +58,7 @@ li a:hover {
 }
 
 .box-row-section div, .box-row2-section div, .box-contact-section div {
-  min-height: 250px;
+  min-height: 450px;
 }
 
 .box-row-section div div, .box-contact-section div div {
@@ -231,6 +231,6 @@ body {
 
 body > section.box-bg2-section > button {
     max-width: 40%;
-    overflow: auto;
+    overflow: hidden;
 }
 
