@@ -4,9 +4,7 @@ body {
 }
 
 li {
-  list-style: none;
-  /*display: inline-block;*/
-  
+  list-style: none;  
 }
 
 li a {
@@ -58,7 +56,7 @@ li a:hover {
 }
 
 .box-row-section div, .box-row2-section div, .box-contact-section div {
-  min-height: 450px;
+  min-height: 250px;
 }
 
 .box-row-section div div, .box-contact-section div div {
@@ -144,23 +142,33 @@ footer {
   padding: 4%;
 }
 
-/* Mejoras del menú de navegación responsive. */
-body {
-  background: #d03b40;
-}
+/* Mejoras del responsive del menú de navegación */
 
-#enlace-menu {
+#open-menu {
   color: white;
   text-align: right;
   font-weight: 800;
   padding: 1%;
-  text-align: right;
 }
 
+body {
+  background: #e05a5f;
+}
 
+.btn-hamburger {
+  background-color: white;
+  max-width: 30px;
+  height: 2px;
+  margin: 5px 10px;
+}
+
+.box-hamburgers {
+  max-width: 50px;
+}
 
 @media (max-width: 730px) {
-  .js  .navegacion {
+  
+  .js .menu-nav {
     overflow: hidden;
     transition: max-height .5s;
     position: absolute;
@@ -168,69 +176,52 @@ body {
     left: 0px;
     top: 60px;
     width: 100%;
-    background-color: #d03b40;
-    display: none;
+    background: #e05a5f;
     padding: 1%;
     box-sizing: border-box;
     border-top: solid 1px white;
+    display: none;
   }
 
   li a:hover {
     color: black;
   }
-
-  #menu.navegacion.menu-desplegado {
+  
+  #menu.menu-nav.menu-displayed {
     display: block;
+  }
+
+  #menu > ul > li {
+    text-align: left;
   }
 
   #menu > nav > ul > li {
     display: block;
     margin-right: 15px;
-    
   }
-  #menu > ul > li {
-    text-align: left;
-  }
+
 }
 
-@media (min-width: 730px) {
-  .lanzador-menu {
+@media (min-width: 730px){
+  #open-menu {
     display: none;
   }
-  .js  .navegacion {
+  .js .menu-nav {
     overflow: hidden;
     transition: max-height .5s;
-    left: 30px;
-    right: 30px;
   }
 
-  .js .navegacion li {
-    display: inline-block;
+  .js .menu-nav li {
+    display: inline;
   }
 
-  .js .navegacion li a {
+  .js .menu-nav li a {
     padding: 5px 10px;
   }
-
- 
-
 }
 
-
-
-.btn-hamburger {
-  background-color: #fff;
-  max-width: 40px;
-  height: 2px;
-  margin: 5px 10px;
-
-}
-#menu-sidebar {
-  max-width: 50px;
-}
 
 body > section.box-bg2-section > button {
-    max-width: 40%;
-    overflow: hidden;
+  max-width: 40%;
+  overflow: hidden;
 }
-
