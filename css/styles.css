@@ -4,9 +4,7 @@ body {
 }
 
 li {
-  list-style: none;
-  display: inline-block;
-  
+  list-style: none;  
 }
 
 li a {
@@ -142,4 +140,88 @@ footer {
   color: white;
   text-align: center;
   padding: 4%;
+}
+
+/* Mejoras del responsive del menú de navegación */
+
+#open-menu {
+  color: white;
+  text-align: right;
+  font-weight: 800;
+  padding: 1%;
+}
+
+body {
+  background: #e05a5f;
+}
+
+.btn-hamburger {
+  background-color: white;
+  max-width: 30px;
+  height: 2px;
+  margin: 5px 10px;
+}
+
+.box-hamburgers {
+  max-width: 50px;
+}
+
+@media (max-width: 730px) {
+  
+  .js .menu-nav {
+    overflow: hidden;
+    transition: max-height .5s;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 60px;
+    width: 100%;
+    background: #e05a5f;
+    padding: 1%;
+    box-sizing: border-box;
+    border-top: solid 1px white;
+    display: none;
+  }
+
+  li a:hover {
+    color: black;
+  }
+  
+  #menu.menu-nav.menu-displayed {
+    display: block;
+  }
+
+  #menu > ul > li {
+    text-align: left;
+  }
+
+  #menu > nav > ul > li {
+    display: block;
+    margin-right: 15px;
+  }
+
+}
+
+@media (min-width: 730px){
+  #open-menu {
+    display: none;
+  }
+  .js .menu-nav {
+    overflow: hidden;
+    transition: max-height .5s;
+  }
+
+  .js .menu-nav li {
+    display: inline;
+  }
+
+  .js .menu-nav li a {
+    padding: 5px 10px;
+  }
+}
+
+
+body > section.box-bg2-section > button {
+  max-width: 40%;
+  overflow: hidden;
 }

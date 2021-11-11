@@ -13,29 +13,32 @@
       name="author"
       content="Luis Daniel Achique Machado – Email: achique.luisdan@gmail.com - Instagram: @achique.luisdan"
     />
-
     <!-- FONTS -->
-       
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400;1,800&display=swap"
       rel="stylesheet"
     />
-
-     
     <!-- CSS -->
-       
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/skeleton.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
+      <a href="#menu" id="open-menu">
+        <div class="box-hamburgers">
+          <div class="btn-hamburger"></div>
+          <div class="btn-hamburger"></div>
+          <div class="btn-hamburger"></div>
+        </div>
+      </a>
       <section class="box-bg-section">
         <nav>
           <img src="imgs/logo.png" alt="" />
-          <ul>
+          <div id="menu" class="menu-nav">
+            <ul>
             <li>
               <a href="#">EL ESPACIO</a>
             </li>
@@ -51,7 +54,8 @@
             <li>
               <a href="#"> CONTACTO </a>
             </li>
-          </ul>
+            </ul>
+        </div>
         </nav>
 
         <h1>
@@ -201,5 +205,6 @@
     <footer>
       Noviembre 2021 &copy Todos los derechos reservados
     </footer>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
