@@ -222,11 +222,23 @@ body {
 }
 
 body > section.box-bg2-section > button {
-  max-width: 40%;
+  max-width: 100%;
   overflow: hidden;
 }
 
 #send-contact {
   background: #d03b40;
   border-color: #bd2d32;
+}
+
+
+textarea.u-full-width {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+
+body > section.box-bg2-section > button:hover {
+  border-color: #d03b40;
+  color: #d03b40;
 }
