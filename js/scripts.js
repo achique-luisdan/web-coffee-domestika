@@ -19,7 +19,8 @@ document.querySelector("html").classList.add("js");
 
 nav();
 
-// Send a POST request
+// 14-11-2021 New Feature Call API REST Contacts
+
 const form = document.getElementById("formContact");
 
 form.addEventListener("submit", async function (event) {
@@ -27,8 +28,7 @@ form.addEventListener("submit", async function (event) {
   savePost()
 });
 
-
-async function savePost() {
+async function saveContact() {
     const name = document.getElementById('name');
     const email = document.getElementById('email');
     const message = document.getElementById('message');
@@ -38,18 +38,15 @@ async function savePost() {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            name: name.value,
+            name: name.value, 
             email: email.value,
-            mesages: [{"text": message.value}]
+            mesages: [{text: message.value}]
         })
       }).then (function (data) {
-        alert ("Muchas gracias por escribirnos. Hemos recibido tu correspondencia con exito.");
-        name.value = ''
-        email.value = ''
-        message.value = ''
+        alert ("Muchas gracias por escribirnos." +
+        "Hemos recibido tu correspondencia con Éxito.");
+        name.value = ''; 
+        email.value = ''; 
+        message.value = '';
       });
 }
-
-
-//let btnSendContact = document.getElementById("send-contact"); // Encuentra el elemento "p" en el sitio
-//btnSendContact.onclick = savePost; // Agrega función onclick al elemento
