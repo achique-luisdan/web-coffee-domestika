@@ -184,14 +184,14 @@
             </b>
           </a>
         </p>
-        <form>
+        <form id="formContact" method="post">
           <input id="email" class="u-full-width" type="email" placeholder="test@mail.com">
           <textarea id="message" class="u-full-width" placeholder="Dejanos tu mensaje."></textarea>
           <label>
             <input type="checkbox">
             <span id="send-catalogue" class="label-body">¿Desea recibir el cátalogo?</span>
           </label>
-          <input id="send-contact"  class="button-primary" type="submit" value="Enviar">
+          <input id="send-contact" class="button-primary" value="Enviar" type="submit">
         </form>
       </div>
  
@@ -214,6 +214,7 @@
     <footer>
       Noviembre 2021 &copy Todos los derechos reservados
     </footer>
+    <script src="js/axios.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
