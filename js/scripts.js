@@ -23,32 +23,28 @@ nav();
 const form = document.getElementById("formContact");
 
 form.addEventListener("submit", async function (event) {
-  console.log(event);
   event.preventDefault();
-  event.cancelable = true;
-  alert("Se dectecto el envio del formulario.");
-  savePost ();
+  savePost()
 });
 
 
 async function savePost() {
-    await axios({
-        method: "post",
-        url: "http://localhost:3000/api/users",
-        data: {
-          name: "Carlos Tovar",
-          email: "carlos@correo.com",
-          mesages: [
-            { text: "Prueba de envio de un mensaje de contacto desde mi fronted." },
-          ],
+    const name = document.getElementById('name');
+    const email = document.getElementById('email');
+    const message = document.getElementById('message');
+    fetch('http://localhost:3000/api/users', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
         },
-      })
-        .then(function (response) {
-          console.log(response);
+        body: JSON.stringify({
+            name: name.value,
+            email: email.value,
+            mesages: [{"text": message.value}]
         })
-        .catch(function (error) {
-          console.log(error);
-        });
+      }).then (function (data) {
+        alert ("Muchas gracias.")
+      });
 }
 
 

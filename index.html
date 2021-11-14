@@ -185,8 +185,9 @@
           </a>
         </p>
         <form id="formContact" method="post">
-          <input id="email" class="u-full-width" type="email" placeholder="test@mail.com">
-          <textarea id="message" class="u-full-width" placeholder="Dejanos tu mensaje."></textarea>
+          <input id="name" class="u-full-width" type="text" placeholder="Juan Miranda" required>
+          <input id="email" class="u-full-width" type="email" placeholder="juan@mail.com" required>
+          <textarea id="message" class="u-full-width" placeholder="Dejanos tu mensaje." required></textarea>
           <label>
             <input type="checkbox">
             <span id="send-catalogue" class="label-body">¿Desea recibir el cátalogo?</span>
@@ -214,7 +215,7 @@
     <footer>
       Noviembre 2021 &copy Todos los derechos reservados
     </footer>
-    <script src="js/axios.min.js"></script>
+    <script src="js/fetch.umd.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
