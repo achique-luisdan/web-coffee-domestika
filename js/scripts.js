@@ -43,7 +43,10 @@ async function savePost() {
             mesages: [{"text": message.value}]
         })
       }).then (function (data) {
-        alert ("Muchas gracias.")
+        alert ("Muchas gracias por escribirnos. Hemos recibido tu correspondencia con exito.");
+        name.value = ''
+        email.value = ''
+        message.value = ''
       });
 }
 
