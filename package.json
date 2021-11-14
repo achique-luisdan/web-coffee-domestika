@@ -1,0 +1,39 @@
+{
+  "name": "web-coffe-domestika",
+  "version": "1.0.0",
+  "description": "Web de una Cafetería Ficticia (Café Oslo).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achique-luisdan/web-coffee-domestika.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Luis Daniel Achique Machado – Email: achique.luisdan@gmail.com - Instagram: @achique.luisdan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/achique-luisdan/web-coffee-domestika/issues"
+  },
+  "homepage": "https://github.com/achique-luisdan/web-coffee-domestika#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
+    "typeorm": "^0.2.40"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.7",
+    "typescript": "^4.4.4"
+  }
+}

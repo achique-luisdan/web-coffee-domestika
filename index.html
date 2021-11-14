@@ -184,14 +184,15 @@
             </b>
           </a>
         </p>
-        <form>
-          <input id="email" class="u-full-width" type="email" placeholder="test@mail.com">
-          <textarea id="message" class="u-full-width" placeholder="Dejanos tu mensaje."></textarea>
+        <form id="formContact" method="post">
+          <input id="name" class="u-full-width" type="text" placeholder="Juan Miranda" required>
+          <input id="email" class="u-full-width" type="email" placeholder="juan@mail.com" required>
+          <textarea id="message" class="u-full-width" placeholder="Dejanos tu mensaje." required></textarea>
           <label>
             <input type="checkbox">
             <span id="send-catalogue" class="label-body">¿Desea recibir el cátalogo?</span>
           </label>
-          <input id="send-contact"  class="button-primary" type="submit" value="Enviar">
+          <input id="send-contact" class="button-primary" value="Enviar" type="submit">
         </form>
       </div>
  
@@ -214,6 +215,7 @@
     <footer>
       Noviembre 2021 &copy Todos los derechos reservados
     </footer>
+    <script src="js/fetch.umd.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
