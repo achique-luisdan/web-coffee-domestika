@@ -2,7 +2,7 @@
 
 <img src="./posts/07_11_2021_POST_INSTAGRA_CODING_WEB_COFFE_DOMESTIKA.png" width="50%" title="07-11-2021 POST INSTAGRAM CODING WEB COFFEE DOMESTIKA">
 
-Landing Page para una cafetería ficticia llamada "Café Oslo", presentada como proyecto final del **Curso de Introducción al Desarrollo Web Responsive con HTML y CSS** en la plataforma de Domestika. 
+Landing Page para una cafetería ficticia llamada "Café Oslo", presentada como proyecto final del <a href="https://www.domestika.org/es/projects/1324391-mi-proyecto-del-curso-introduccion-al-desarrollo-web-responsive-con-html-y-css">**Curso de Introducción al Desarrollo Web Responsive con HTML y CSS** </a> en la plataforma de Domestika. 
 
 Agradezco al profesor por las imágenes que nos dio con los diseños UI/UX para dispositivos mobiles y desktop. 
 
