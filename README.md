@@ -70,4 +70,6 @@ npm run start
 
 ## YouTube Coding
 
-[![Landing Page de Cafetería con HTML y CSS - Parte 1 . Estructura y Estilos](./posts/07_11_2021_MINIATURA_CODING_WEB_COFFE_DOMESTIKA_PARTE_1.png)](https://www.youtube.com/watch?v=AL1johGs9EA)
+<a href="https://www.youtube.com/watch?v=AL1johGs9EA">
+  <img src="./posts/07_11_2021_MINIATURA_CODING_WEB_COFFE_DOMESTIKA_PARTE_1.png" width="40%" title="Landing Page de Cafetería con HTML y CSS - Parte 1 . Estructura y Estilos" >
+</a>
