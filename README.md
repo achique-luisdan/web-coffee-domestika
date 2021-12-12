@@ -10,12 +10,18 @@ Adicionalmente, como parte de mi aporte personal agregué un backend para proces
 
 ## YouTube Coding
 
-Con mucho cariño he grabado estos vídeos para que puedas visualizar el proceso de codificación:
+Con mucho cariño he grabado estos vídeos para que puedas visualizar el proceso de codificación, pincha las **miniaturas** y acompañame con buena música:
 
 <a href="https://www.youtube.com/watch?v=AL1johGs9EA">
-  <img src="./posts/07_11_2021_MINIATURA_CODING_WEB_COFFE_DOMESTIKA_PARTE_1.png" width="40%" title="Landing Page de Cafetería con HTML y CSS - Parte 1 . Estructura y Estilos" >
-  <br>
- Parte 1 . Estructura y Estilos
+  <img src="./posts/07_11_2021_MINIATURA_CODING_WEB_COFFE_DOMESTIKA_PARTE_1.png" width="33%" title="Landing Page de Cafetería con HTML y CSS - Parte 1 . Estructura y Estilos" >
+</a>
+
+<a href="https://www.youtube.com/watch?v=_tKnT1JgIgQ">
+  <img src="./posts/12_12_2021_MINIATURA_CODING_WEB_COFFE_DOMESTIKA_PARTE_2.png" width="33%" title="Landing Page de Cafetería con HTML y CSS - Parte 2. Completado Estructura" >
+</a>
+
+<a href="https://www.youtube.com/watch?v=y9YiM5Mo6T4">
+  <img src="./posts/12_12_2021_MINIATURA_CODING_WEB_COFFE_DOMESTIKA_PARTE_3.png" width="33%" title="Landing Page de Cafetería con HTML y CSS - Parte 3. Menú de Navegación" >
 </a>
 
 ## Características ❤️
