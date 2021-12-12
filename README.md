@@ -6,7 +6,17 @@ Landing Page para una cafetería ficticia llamada "Café Oslo", presentada como 
 
 Agradezco al profesor por las imágenes que nos dio con los diseños UI/UX para dispositivos mobiles y desktop. 
 
-Adicionalmente, como parte de mi aporte personal agregué un backend para procesar el formularios de contacto.
+Adicionalmente, como parte de mi aporte personal agregué un backend para procesar el formulario de contacto.
+
+## YouTube Coding
+
+Con mucho cariño he grabado estos vídeos para que puedas visualizar el proceso de codificación:
+
+<a href="https://www.youtube.com/watch?v=AL1johGs9EA">
+  <img src="./posts/07_11_2021_MINIATURA_CODING_WEB_COFFE_DOMESTIKA_PARTE_1.png" width="40%" title="Landing Page de Cafetería con HTML y CSS - Parte 1 . Estructura y Estilos" >
+  <br>
+ Parte 1 . Estructura y Estilos
+</a>
 
 ## Características ❤️
 
@@ -67,9 +77,3 @@ npm run start
 3. Agregar inicio de sesión para el administrador de la web. 
 4. Ubicar cafetería en Google Maps.
 5. Desplegar el backend en un servidor gratuito.
-
-## YouTube Coding
-
-<a href="https://www.youtube.com/watch?v=AL1johGs9EA">
-  <img src="./posts/07_11_2021_MINIATURA_CODING_WEB_COFFE_DOMESTIKA_PARTE_1.png" width="40%" title="Landing Page de Cafetería con HTML y CSS - Parte 1 . Estructura y Estilos" >
-</a>
